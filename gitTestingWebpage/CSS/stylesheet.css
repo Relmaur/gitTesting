@@ -6,9 +6,6 @@
 
 html {
   font-size: 6.25%;
-}
-
-body {
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -23,6 +20,7 @@ p {
   font-weight: 300;
   font-size: 18rem;
 }
+
 .navbar {
   width: 10px;
   background-color: beige;
