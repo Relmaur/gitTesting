@@ -62,13 +62,15 @@ h1 {
   color: rgb(255, 255, 255);
   background-color: burlywood;
   width: 60%;
+  text-align: left;
+  padding: 2%;
 }
 
 h2 {
   display: block;
   font-size: 30rem;
   color: rgb(255, 255, 255);
-  box-shadow: rgb(255, 118, 64);
+  box-shadow: rgb(255, 118, 64, 0.5);
 }
 
 p {
