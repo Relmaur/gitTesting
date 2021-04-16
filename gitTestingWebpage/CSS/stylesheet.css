@@ -1,3 +1,5 @@
+/* Main Document style */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,19 +11,13 @@ html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
+body {
+  width: 100%;
+  height: 100;
+  font-size: 100%;
 }
 
-h1 {
-  padding: 5%;
-  font-weight: 900;
-  font-size: 30rem;
-  color: rgb(255, 255, 255);
-  background-color: burlywood;
-  width: 60%;
-}
+/* Main Webpage style */
 
 header {
   display: flex;
@@ -29,35 +25,70 @@ header {
   align-items: center;
   width: 100vw;
   height: 10vh;
+  background-color: rgb(255, 197, 174);
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 80vh;
+  background-color: lightyellow;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(255, 197, 174);
+}
+
+/* Article Styling */
+
+.art1 {
+  display: flex;
+  height: 60vh;
+  width: 100vw;
+  font-size: 30rem;
+}
+
+h1 {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 30rem;
+  color: rgb(255, 255, 255);
+  background-color: burlywood;
+  width: 60%;
 }
 
 h2 {
   display: block;
   font-size: 30rem;
-  color: rgb(255, 119, 70);
-  box-shadow: lightgray;
-  width: ;
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(255, 118, 64);
 }
 
 p {
-  padding: 5%;
+  padding: 2%;
+  display: block;
   width: 40%;
   background-color: sandybrown;
   color: white;
   text-align: justify;
+  font-size: 15rem;
 }
 
-.art1 {
-  display: flex;
-  justify-content: space-around;
-}
+/* Boxes Styling */
 
 .container {
   background-color: coral;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 10vh;
+  height: 20vh;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 900;
